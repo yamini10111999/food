@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="head">
+        <h1>
+            The Recipe App
+        </h1>
+        <p>What recipe do you want to save today?</p>
+    </div>
+<div id="container">
+<h2 id="tagh2"><b>Add Recipe</b></h2>
+<input type ="text" id="inputbox" placeholder="Add Recipe" required="required"><br>
+<textarea type="text" id="para" placeholder="Recipe steps"></textarea>
+<h2 id="ingredients">Ingredients</h2>
+<p id="para2">After adding your ingredient. use the checkbox to indicate if you have it in stock</p>
+<div class="add">
+<input type ="text" id="inputbox" placeholder="Add ingredients">
+<button id="button">Add ingredient</button><br><br>
+</div><br> <br>
+<button  onclick="toggleFunction()"  id="button">Add new Recipe</button>
+</div>
+<script src="add.js"></script>
+</body>
+</html>
