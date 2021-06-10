@@ -1,0 +1,69 @@
+html{
+    width:100%;
+}
+body{
+    width:100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: rgb(46, 45, 45);
+    
+}
+#head{
+    background-color: violet;
+    font-size: 35px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+
+    font-size:20px;
+}
+#inputbox{
+    position:relative;
+    padding: 12px;
+    margin-left:15px;
+    width:calc( 20% - 27px );
+
+}
+#button{
+    background-color: blueviolet;
+    color: white;
+    padding: 9px;
+    margin-left:15px ;
+    box-sizing: 1px border-box;
+    width:calc( 10% - 22px );
+    border-radius: 6px;
+
+}
+.add{
+    display: flex;
+    flex-direction: row;
+}
+#para{
+    padding:50px;
+    margin-left: 15px;
+    width:calc( 30% - 65px );
+}
+#delete{
+    background-color: red;
+    color: white;
+    padding: 7px;
+    margin-left:15px ;
+    box-sizing: 1px border-box;
+    width:calc( 10% - 22px );
+
+
+}
+#demo{
+    font-size: 23px;
+}
+#search{
+    padding: 12px;
+    margin-left:15px;
+    width:calc( 20% - 27px );
+
+}
+
+}
